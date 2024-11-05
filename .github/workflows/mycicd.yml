@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Sec ${{ secrets.MY_SECRET_NAME }} ."
-      - run: echo "Var = ${{ vars.MY_NAME }} "
+      - run: echo "Var = ${{ var.MY_NAME }} "
      
