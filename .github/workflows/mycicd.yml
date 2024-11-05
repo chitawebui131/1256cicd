@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - run: echo "Sec ${{ secrets.MY_SECRET_NAME }} ."
       - run: echo "Var = ${{ vars.MY_NAME }} "
-      - run: echo "Var2 = $MY_NAME  "
+
      
